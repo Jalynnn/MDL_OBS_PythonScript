@@ -10,8 +10,12 @@ The audio is recorded via OBS so setting up this script alone should sync the au
 
 * Pull timestamp from OBS
     * Solves UTC timezone
-    * Currently prints two timestamps for a keyboard input --> 
 
-* JSON input markers
+* JSON input markers - Amanda
 
 * Ask for input name for the file for a function
+
+* If one of the devices is already recording...
+    * keeps looping
+    * Printing an error that failed to start all
+    * timeout error
